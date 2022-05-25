@@ -16,32 +16,32 @@ purposes.
 Features:
 
 *******************************************************P E M  T S H E R I N G************************************************************************************
-* Login Page																			                                                                                                              *
-	The page where the system admin or user submit their system credential to access the data and functionalities of the school fees payment system.	            *
-																				                                                                                                                        *
-* Home Page																			                                                                                                                *
-	The page where the system users will be redirected by default when logging into the system.								                                                    *
-																				                                                                                                                        *
-* Students Page																			                                                                                                            *
-	The page where the school students are listed and managed.												                                                                            P
-																				                                                                                                                        E
-* Courses & Fees Page																		                                                                                                        M
+* Login Page																			                                                                                                              
+	The page where the system admin or user submit their system credential to access the data and functionalities of the school fees payment system.	            
+																				                                                                                                                        
+* Home Page																		                                                                                                                
+	The page where the system users will be redirected by default when logging into the system.								                                      
+																				                                                                                                                        
+* Students Page																			                                                                                                            
+	The page where the school students are listed and managed.												                                                                            
+																				                                                                                                                        
+* Courses & Fees Page																		                                                                                                        
 	The page where the courses per level are listed and managed along with the fees for each course and level.
-																				                                                                                                                        T
-* Student Fess Page																		                                                                                                          S
-​​​​​​​	The page where the list of students per school year with the help of the enrollment ID is listed and managed.						                                H
-																				                                                                                                                        E
-* Payments Page																			                                                                                                            R
-​​​​​​​​​​​​​​	The page where the payments are listed and managed.													                                                                    I
-																				                                                                                                                        N
-* Payments Report Page																		                                                                                                      G
-​​​​​​​​​​​​​	​The page where the monthly report of payments is shown and ready to print.​​​​​​​										                                            *
-																				                                                                                                                        *
-* Users Page																			                                                                                                              *
+																				                                                                                                                        
+* Student Fess Page																		                                                                                                          
+​​​​​​​	The page where the list of students per school year with the help of the enrollment ID is listed and managed.						                                
+																				                                                                                                                        
+* Payments Page																			                                                                                                            
+​​​​​​​​​​​​​​	The page where the payments are listed and managed.													                                                                    
+																				                                                                                                                        
+* Payments Report Page																		                                                                                                      
+​​​​​​​​​​​​​	​The page where the monthly report of payments is shown and ready to print.​​​​​​​										                                            
+																				                                                                                                                        
+* Users Page																			                                                                                                              
 ​​​​​​​	The page where the system admin manages the list of school fees payment system users.​​​​​​​									                                          *
 	The School Fees Payment System was developed using HTML, PHP/MySQLi, CSS, JavaScript (jQuery/Ajax), and Bootstrap for the design. 			                      *
-	The source code is fully functional and easy to modify or enhance. Follow the instruction below to have an actual experience using this simple project.       *
-*****************************************************************************************************************************************************************
+	The source code is fully functional and easy to modify or enhance. Follow the instruction below to have an actual experience using this simple project.       
+***************************************************************************************************************************************************************
 
 
 
@@ -54,6 +54,7 @@ How to Run
 	Open a web browser and browse the project. E.g [http://localhost/schoolfees]
 
 Admin Default Access
+	
 	Username: admin
 
 	Password: admin123
