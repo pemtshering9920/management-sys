@@ -15,7 +15,6 @@ purposes.
 
 Features:
 
-*******************************************************P E M  T S H E R I N G************************************************************************************
 * Login Page																			                                                                                                              
 	The page where the system admin or user submit their system credential to access the data and functionalities of the school fees payment system.	            
 																				                                                                                                                        
