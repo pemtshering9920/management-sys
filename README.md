@@ -57,8 +57,7 @@ Admin Default Access
 	Username: admin
 
 	Password: admin123
-
-Made by Pem Thsering, In hopes of getting good markd In Project Stage 2 
+ 
 
 with Regards,
 Pem Tshering
