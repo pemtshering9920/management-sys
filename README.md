@@ -57,6 +57,13 @@ Admin Default Access
 	Username: admin
 
 	Password: admin123
+	
+.[screenshots:]
+
+![97fBOG8Jq4](https://user-images.githubusercontent.com/43818157/170838537-331a9bc6-31ba-4fb5-aae8-69281bc90796.png)
+
+
+ 
  
 
 with Regards,
