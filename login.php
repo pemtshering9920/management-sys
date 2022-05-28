@@ -17,8 +17,8 @@ ob_end_flush();
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title><?php echo $_SESSION['system']['name'] ?></title>
- 	
 
+  
 <?php include('./header.php'); ?>
 <?php 
 if(isset($_SESSION['login_id']))
