@@ -63,8 +63,17 @@ Admin Default Access
 ![97fBOG8Jq4](https://user-images.githubusercontent.com/43818157/170838537-331a9bc6-31ba-4fb5-aae8-69281bc90796.png)
 
 
- 
- 
+![chrome_BIJWYjqsls](https://user-images.githubusercontent.com/43818157/170838594-004e7af4-b069-47b7-ae9b-b049ba6c4fc2.png)
+
+
+![chrome_L7BTCl1Mx8](https://user-images.githubusercontent.com/43818157/170838604-9daca528-855a-4c41-9937-4f1e2d6d13cb.png)
+
+
+![chrome_mH5gqd2xQP](https://user-images.githubusercontent.com/43818157/170838611-de00af01-3e6f-4694-88f9-05299fb1f69e.png)
+
+
+![chrome_nPLJ6yigTk](https://user-images.githubusercontent.com/43818157/170838621-db967009-76b8-40ee-bfb9-fbebc655cb2d.png)
+
 
 with Regards,
 Pem Tshering
