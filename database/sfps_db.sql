@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 12, 2021 at 03:31 PM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.4.10
+-- Generation Time: May 28, 2022 at 08:20 PM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -41,7 +41,7 @@ CREATE TABLE `courses` (
 --
 
 INSERT INTO `courses` (`id`, `course`, `description`, `level`, `total_amount`, `date_created`) VALUES
-(1, 'Course 2', 'Sample', '1', 4500, '2020-10-31 11:01:15');
+(1, 'Sem 8 -Engineering', 'Total 8 courses in this Sem', '1', 73500, '2020-10-31 11:01:15');
 
 -- --------------------------------------------------------
 
@@ -62,7 +62,9 @@ CREATE TABLE `fees` (
 
 INSERT INTO `fees` (`id`, `course_id`, `description`, `amount`) VALUES
 (1, 1, 'Tuition', 3000),
-(3, 1, 'sample', 1500);
+(3, 1, 'sample', 1500),
+(4, 1, 'hostel', 35000),
+(5, 1, 'BVCOE_MESS', 34000);
 
 -- --------------------------------------------------------
 
@@ -84,7 +86,8 @@ CREATE TABLE `payments` (
 
 INSERT INTO `payments` (`id`, `ef_id`, `amount`, `remarks`, `date_created`) VALUES
 (1, 1, 1000, 'sample', '2020-10-31 14:25:35'),
-(2, 1, 500, 'sample 2', '2020-10-31 14:47:15');
+(2, 1, 500, 'sample 2', '2020-10-31 14:47:15'),
+(3, 3, 30000, 'Paid partially. more ot be paid later', '2022-05-28 23:37:31');
 
 -- --------------------------------------------------------
 
@@ -107,8 +110,9 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`id`, `id_no`, `name`, `contact`, `address`, `email`, `date_created`) VALUES
-(1, '06232014', 'Adones Evangelista', '+639272777334', 'Brgy. Tan-awan Kabankalan City, Negros Occidental', 'adones@gmail.com', '2020-10-31 11:24:42'),
-(2, '1415', 'Adrian Mercurio', '+639125113555', 'Brgy. Su-ay Himamaylan City, Negro Occidental', 'adrian@gmail.com', '2020-10-31 11:29:38');
+(1, '06232014', 'satyarthi mallesh', '+918776345678', 'Pune', 'sathya.surya@gmail.com', '2020-10-31 11:24:42'),
+(2, '71234E', 'ramesh', '+918888834567', 'BVP hostel, lavale, pune', 'ramesh@gmail.com', '2020-10-31 11:29:38'),
+(3, '71806419E', 'Pem Tshering', '+919876567774', 'Camp pune, Pune,India 410011', 'myteshmesh@outlook.com', '2022-05-23 19:26:31');
 
 -- --------------------------------------------------------
 
@@ -131,7 +135,8 @@ CREATE TABLE `student_ef_list` (
 
 INSERT INTO `student_ef_list` (`id`, `student_id`, `ef_no`, `course_id`, `total_fee`, `date_created`) VALUES
 (1, 2, '2020-654278', 1, 4500, '2020-10-31 12:04:18'),
-(2, 1, '2020-65427823', 1, 4500, '2020-10-31 13:12:13');
+(2, 1, '2020-654271', 1, 4500, '2020-10-31 13:12:13'),
+(3, 3, '2022-667677', 1, 73500, '2022-05-23 19:29:16');
 
 -- --------------------------------------------------------
 
@@ -153,7 +158,7 @@ CREATE TABLE `system_settings` (
 --
 
 INSERT INTO `system_settings` (`id`, `name`, `email`, `contact`, `cover_img`, `about_content`) VALUES
-(1, 'School Fees Payment Management System', '', '', '', '');
+(1, 'Fees Record Module', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -236,25 +241,25 @@ ALTER TABLE `courses`
 -- AUTO_INCREMENT for table `fees`
 --
 ALTER TABLE `fees`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `payments`
 --
 ALTER TABLE `payments`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `student`
 --
 ALTER TABLE `student`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `student_ef_list`
 --
 ALTER TABLE `student_ef_list`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `system_settings`
